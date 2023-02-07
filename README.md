@@ -9,8 +9,6 @@ The universe of the Game of Life is a square matrix, where each cell can be in o
 * Any dead cell with three live neighbours becomes a live cell.
 * All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
-The two pictures below are an example of how the game evolves. The first picture correpsonds to the inital configuration, and the second picture corresponds to the last one (where equilibrium has been reached and the system no longer evolves) after 24 iterations:
+The two pictures below are an example of how the game evolves. The picture on the left correpsonds to the inital configuration, and the picture on the right corresponds to the last one (where equilibrium has been reached and the system no longer evolves) after 24 iterations:
 
-![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/master/images/initial_state.png)
-
-![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/master/images/final_state.png)
+![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/main/images/initial_state.png)   ![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/main/images/final_state.png)
