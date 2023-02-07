@@ -11,4 +11,4 @@ The universe of the Game of Life is a square matrix, where each cell can be in o
 
 The two pictures below are an example of how the game evolves. The picture on the left correpsonds to the inital configuration, and the picture on the right corresponds to the last one (where equilibrium has been reached and the system no longer evolves) after 24 iterations:
 
-![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/main/images/initial_state.png)   ![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/main/images/final_state.png)
+![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/master/images/initial_state.png)   ![alt_file](https://github.com/ygbuil/Game-Of-Life/blob/master/images/final_state.png)
