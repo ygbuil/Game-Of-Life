@@ -2,9 +2,10 @@
 import os
 import sys
 import time
+from pathlib import Path
 
 # root path
-path = 'C:\\Users\\llorenc.buil\\Documents\\github\\Game-Of-Life'
+path = Path('C:/Users/llorenc.buil/github/Game-Of-Life')
 os.chdir(path)
 if path not in sys.path:
     sys.path.append(path)
@@ -49,5 +50,5 @@ def main(matrix_size, initial_probability_of_life, steps):
     return matrix
 
 
-# run simulation
-main(matrix_size=20, initial_probability_of_life=0.2, steps=100)
+if __name__ == '__main__':
+    main(matrix_size=20, initial_probability_of_life=0.2, steps=100)
