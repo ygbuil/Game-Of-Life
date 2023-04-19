@@ -1,17 +1,5 @@
-# libraries
-import os
-import sys
-import time
-from pathlib import Path
-
-# root path
-path = Path('C:/Users/llorenc.buil/github/Game-Of-Life')
-os.chdir(path)
-if path not in sys.path:
-    sys.path.append(path)
-
 # local libraries
-from src.objects import functions as f
+from objects import functions as f
 
 
 def main(matrix_size, initial_probability_of_life, steps):
@@ -43,9 +31,6 @@ def main(matrix_size, initial_probability_of_life, steps):
         matrix = f.update_matrix(matrix=matrix)
 
         f.plot_matrix(matrix)
-
-        # sleep 0.5s to see evolution
-        time.sleep(0.5)
 
     return matrix
 
